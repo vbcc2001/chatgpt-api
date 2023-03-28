@@ -1,0 +1,16 @@
+{
+    "apps": [{
+      "name": "chatgpt-api",
+      "script": "fastify start -a 0.0.0.0 -l info app.js",
+      "cwd": "/home/ubuntu/chatgpt-api/",
+      "exec_mode": "fork",
+      "max_memory_restart": "8G",
+      "autorestart": false,
+      "watch": true,
+      "node_args": [],
+      "args": [],
+      "env": {
+      }
+    }]
+  }
+  
