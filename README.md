@@ -1,23 +1,32 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
-This project was bootstrapped with Fastify-CLI.
+## Installation
 
-## Available Scripts
+```bash
+$ npm install
+```
 
-In the project directory, you can run:
+## Running the app
 
-### `npm run dev`
+```bash
+# development
+$ npm run start
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# watch mode
+$ npm run start:dev
 
-### `npm start`
+# production mode
+$ npm run start:prod
+```
 
-For production mode
+## Test
 
-### `npm run test`
+```bash
+# unit tests
+$ npm run test
 
-Run the test cases.
+# e2e tests
+$ npm run test:e2e
 
-## Learn More
+# test coverage
+$ npm run test:cov
+```
 
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
